@@ -8,9 +8,7 @@ public class Bet {
     private String title;
     private String odds;
 
-
-
-    public Bet(String title, String odds) {
+  public Bet(String title, String odds) {
         this.id = "";
         this.title = title;
         this.odds = odds;
@@ -46,7 +44,6 @@ public class Bet {
     public String toString() {
         return "Bet{" +
                 "title='" + title + '\'' +
-
                 ", odds='" + odds + '\'' +
                 '}';
     }

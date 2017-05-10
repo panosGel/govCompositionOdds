@@ -48,6 +48,7 @@ public class MongoVerticle extends AbstractVerticle {
                     .end("<h2>Government Composition Odds</h2>");
         });
 
+        //api routing and handling
         router.route("/assets/*").handler(StaticHandler.create("assets"));
         router.get("/api/odds").handler(this::getAll);
         router.route("/api/odds*").handler(BodyHandler.create());
@@ -81,7 +82,7 @@ public class MongoVerticle extends AbstractVerticle {
 
 
     private void getOne(RoutingContext routingContext) {
-
+        //TODO
     }
 
     private void getAll(RoutingContext routingContext) {

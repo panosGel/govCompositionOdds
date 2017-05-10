@@ -1,6 +1,6 @@
 # Government Composition Odds
 
-A simple vert.x application that uses the mongoDB client and jsoup
+A simple vert.x application that uses the mongoDB client and jsoup.
 
 ## Building
 
@@ -16,7 +16,7 @@ The application is tested using vertx-unit, and junit.
 
 ## Packaging
 
-The application is packaged as a _fat jar_, using gradle wrapper and the gradle shadow plugin [https://github.com/johnrengelman/shadow]
+The application is packaged as a _fat jar_, using gradle wrapper and the gradle shadow plugin. [https://github.com/johnrengelman/shadow]
 
 To create the fat jar run
 ```
