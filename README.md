@@ -1,7 +1,6 @@
 # Government Composition Odds
 
-This project is a very simple Vert.x 3 application and contains some explaination on how this application is built
-and tested.
+A simple vert.x application that uses the mongoDB client and jsoup
 
 ## Building
 
